@@ -1,3 +1,4 @@
 [submodule "engine"]
 	path = engine
-	url = git@github.com:mikkosyrja/speedcrunch-engine
+	url = git@github.com:ma100dev/speedcrunch-engine
+# https://stackoverflow.com/questions/11637175/swap-git-submodule-with-own-fork

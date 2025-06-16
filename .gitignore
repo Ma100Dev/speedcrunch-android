@@ -1,2 +1,6 @@
 *~
 *.pro.user*
+*.o
+*.idx
+build/
+.idea/
