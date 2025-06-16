@@ -4,3 +4,5 @@
 *.idx
 build/
 .idea/
+.gradle/
+local.properties
