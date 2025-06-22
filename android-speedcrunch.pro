@@ -136,7 +136,9 @@ DISTFILES += \
 	android/res/drawable-hdpi/icon.png \
 	android/res/drawable-ldpi/icon.png \
 	android/res/drawable-mdpi/icon.png \
+	android/res/xml/qtprovider_paths.xml \
 	android/build.gradle \
+	android/gradle.properties \
 	android/gradle/wrapper/gradle-wrapper.properties \
 	android/gradlew.bat \
 	CHANGELOG.md \
@@ -172,4 +174,4 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android
 
-ANDROID_ABIS = armeabi-v7a
+ANDROID_ABIS = arm64-v8a
